@@ -11,6 +11,15 @@
   margin-top: 30px;
 }
 
+@media (max-width: 750px) {
+  .container {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
 .container .form {
   background-color: aqua;
   padding: 30px;
